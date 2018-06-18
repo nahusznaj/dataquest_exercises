@@ -43,3 +43,28 @@ For me the challenge was first to write down the method properly. I was struggli
 It took me a while to realise I had to use two iterations with `enumerate()`.
 
 Then, I had a correct programme, but the output was not ok and I had the error while instructing the outcome. I had put `print(outcome)` and that wasn't what the exercise required. Anyway, one of those moments where you know you're doing it right and you can't understand why the answer is strictly speaking incorrect.
+
+The answer provided by [dataquest.io](http://dataquest.io) is:
+
+```python
+# Default display code
+class Dataset:
+    def __init__(self, data):
+        self.header = data[0]
+        self.data = data[1:]
+    
+    def column(self, label):
+        if label not in self.header:
+            return None
+        
+        index = 0
+        for idx, element in enumerate(self.header):
+            if label == element:
+                index = idx
+        
+        column = []
+        for row in self.data:
+            column.append(row[index])
+        return column
+    
+```

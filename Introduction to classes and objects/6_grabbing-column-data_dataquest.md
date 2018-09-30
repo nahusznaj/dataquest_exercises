@@ -1,7 +1,7 @@
 
 I'm learning data science with [dataquest.io](). I really like the website and the exercises so far are good challenges.
 
-I'm using this occasion to practise using github more, so that's why I'm uploading some stuff. I appreciate that this is a beginner's problem, but I just want to practise not only programming but also using github. (See my post in my website on (git basics)[https://nahusznaj.github.io/learning/git-learning/].)
+I'm using this occasion to practise using github more, so that's why I'm uploading some stuff. I appreciate that this is a beginner's problem, but I just want to practise not only programming but also using github. (See my post in my website on [git basics](https://nahusznaj.github.io/learning/git-learning/).)
 
 
 So, this exercise was the following:

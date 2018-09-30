@@ -1,16 +1,16 @@
 
-I'm doing the _Data Scientist In Python Path_ at https://www.dataquest.io/. I really like the website and the exercises so far are good challenges.
+I'm learning data science with [dataquest.io](). I really like the website and the exercises so far are good challenges.
 
-I'm using this occasion to practise using github more, so that's why I'm uploading some stuff. I appreciate that this is a beginner's problem, but I just want to practise not only programming but also using github. (see my post on )
+I'm using this occasion to practise using github more, so that's why I'm uploading some stuff. I appreciate that this is a beginner's problem, but I just want to practise not only programming but also using github. (See my post in my website on (git basics)[https://nahusznaj.github.io/learning/git-learning/].)
 
 
 So, this exercise was the following:
 
-The dataset file `nfl.csv` includes headers `year`, `week`, `winner`, `loser` and has lots of rows that tell you when an NFL game was played and who won.
+We're given a dataset file `nfl.csv`, which includes headers `year`, `week`, `winner`, `loser` and has lots of rows that tell you information about NFL games.
 
 The idea of the exercise is to create a class (Dataset) and add a method which given a value for a column, pulls out all the rows for that column.
 
-So the challenge was not only to write down a correct method for that class, but also to instruct a method to iterate appropriately and give for output a list of values (if the input was a genuine column), or None if the input was not an actual column in the dataset `nfl.csv`.
+So the challenge is not only to write down a correct method for that class, but also to instruct a method to iterate appropriately and give for output a list of values (if the input is a genuine column), or None if the input is not an actual column in the dataset `nfl.csv`.
 
 This is my answer:
 
